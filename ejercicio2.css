@@ -96,7 +96,7 @@ label {
     background-color: #ffffff;
     border-radius: 30px;
 }
-#resultado{
+#resultado, #comi{
     font-size: 1.5rem;
     color:#4eb3de;
 }

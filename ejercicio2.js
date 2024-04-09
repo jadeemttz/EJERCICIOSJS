@@ -7,5 +7,5 @@ document.getElementById('form').addEventListener('submit', function(event) {
     var comision = 0.1;
     var comisiontotal = (v1+v2+v3) * comision; 
     var total = sueldob + comisiontotal;
-    document.getElementById('resultado').innerText = "El vendedor recibirá $" + total + " en total en el mes";
+    document.getElementById('resultado').innerText = "El vendedor recibirá $" + total + " en total";
 });

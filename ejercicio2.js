@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
         var v3 = parseFloat(v3Input.value);
 
         // Validar si los valores ingresados son números positivos
-        if (isNaN(sueldob) || sueldob <= 0 || isNaN(v1) || v1 <= 0 || isNaN(v2) || v2 <= 0 || isNaN(v3) || v3 <= 0) {
-            alert("Por favor, ingrese números positivos para todos los campos.");
+        if (isNaN(sueldob) || sueldob <= 0 || isNaN(v1) || v1 <0 || isNaN(v2) || v2 <0 || isNaN(v3) || v3 <0) {
+            alert("Por favor, ingrese números positivos o 0 para todos los campos.");
             return;
         }
 

@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Validar si la fecha de nacimiento es mayor que la fecha actual
         if (mes < 0 || (mes === 0 && hoy.getDate() < nacimiento.getDate())) {
-            alert("La fecha de nacimiento no puede ser en el futuro.");
+            alert("La fecha de nacimiento debe ser válida.");
             return;
         }
 
